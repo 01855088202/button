@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head">Bangladesh is a beautiful country.</h1>
+    <button onclick="document.getElementById('head').style.fontFamily='Arial black'">Arial black</button>
+   
+    <button onclick="impact()" id="id2">impact</button>
+    <button id="cursive">cursive</button>
+    <button onclick="document.getElementById('head').style.fontFamily='monospace'">monospace</button>
+    <button onclick="document.getElementById('head').style.fontFamily='sans-serif'">sans-serif</button>
+
+
+
+    <!--day52-->
+    <button id="day52">click</button>
+
+
+
+
+
+    <script>
+        //method2
+        function impact() {
+            document.getElementById('head').style.fontFamily="impact";
+        }
+        //method3
+        var cursives=document.getElementById('cursive');
+        cursives.onclick=cursive;
+      function cursive() {
+        document.body.style.fontFamily="cursive";
+        
+      }
+      //method
+      var buttoncolor=document.getElementById('');
+      buttoncolor.onclick= function makebuttoncolor() {
+        document.body.style.backgroundColor='purple';
+        
+      }
+      //
+
+      document.getElementById('day52').addEventListener('click',function () {
+  console.log("jotosob");
+        
+      })
+    </script>
+    
+</body>
+</html>

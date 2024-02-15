@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="bgcolor">
+    <div>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem vitae, non animi dolore, voluptas deleniti illo nemo sed eveniet quo in dignissimos veniam voluptates at hic ipsa necessitatibus perferendis!</p>
+        <p class="pera">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eaque ducimus, aut nobis, dicta voluptatum asperiores consectetur quidem, ipsum similique tenetur voluptatibus doloremque odio? Ut libero odit eius. Suscipit, similique?</p>
+        <p class="pera">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eligendi vero facere debitis fuga illum. Ipsa quis rerum, quasi pariatur nemo deserunt qui magni? Tenetur voluptatem inventore illo nisi assumenda.</p>
+    </div>
+  <h1 onclick="document.body.style.backgroundColor='yellow'">We live in a beautiful World</h1>
+  <h1 id="display">Welcome To Bangladesh.</h1>
+<button onclick="color()" id="change">faduri mokta</button>
+<div class="methods">
+  
+    <button id="makepink">modon tompa</button>
+
+</div>
+<button id="buttom9">bby jaan</button>
+<!--method5-->
+<button id="button5">T^3</button>
+<!--method6-->
+<button id="button6">T^3 Tahmina Tanha Tumpa</button>
+<!--method7-->
+<h1 id="display1">Welcome To Bangladesh.</h1>
+<button onclick="color()" id="change1"> Jubia</button>
+<button onclick="color1()" id="change2">Tahmina</button>
+
+  
+    <script src="day.js"></script>
+    <script>
+        //method2
+        function color() {
+            document.getElementById('bgcolor').style.backgroundColor="orange";
+            display.innerHTML="Welcome to website.";
+            
+        }
+        //method3
+        var pinkbutton=document.getElementById('makepink');
+        pinkbutton.onclick=makebuttonpink ;
+      function makebuttonpink() {
+        document.body.style.backgroundColor='pink';
+        
+      }
+      //method4
+      var buttoncolor=document.getElementById('buttom9');
+      buttoncolor.onclick= function makebuttoncolor() {
+        document.body.style.backgroundColor='purple';
+        
+      }
+      //method5
+      var greenbutton=document.getElementById('button5');
+      greenbutton.addEventListener('click',function makegreen() {
+        document.body.style.backgroundColor='green';
+        
+      })
+      //method6
+      document.getElementById('button6').addEventListener('click',function () {
+        document.body.style.backgroundColor='orange';
+        
+      })
+      //method7
+      function color() {
+            document.getElementById('change1').style.backgroundColor="blue";
+           display1.innerHTML="Welcome to Cox's Bazar.";
+            
+        }
+        function color1() {
+            document.getElementById('change2').style.backgroundColor="red";
+           display1.innerHTML="Welcome to Cumilla.";
+            
+        }
+
+
+    
+
+    
+    </script>
+    
+</body>
+</html>

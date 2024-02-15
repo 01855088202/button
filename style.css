@@ -1,0 +1,79 @@
+#buttom{
+    width: 300px;
+    height: 150px;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    margin: 30px;
+}
+#buttom1{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(156, 196, 37);
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    margin: 30px;
+}
+#buttom2{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(3, 91, 62);
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    margin: 30px;
+}
+#buttom3{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(216, 187, 121);
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    margin: 30px;
+}
+#buttom4{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(144, 140, 206);
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    margin: 30px;
+}
+#buttom5{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(203, 174, 69);
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    margin: 30px;
+}
+#buttom6{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(193, 52, 123);
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    margin: 30px;
+}
+#buttom7{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(193, 52, 123);
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    margin: 30px;
+}
+
+.flex-container{
+    display: flex;
+}
+.flex-container1{
+    display: flex;
+}

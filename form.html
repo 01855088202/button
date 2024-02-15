@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head">Hello Bangladesh.</h1>
+    <br>
+    <input type="text" id="input-text">
+    <button id="update">Update</button>
+<!---comment-->
+<h2>comment-box</h2>
+<div id="comment-container">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> tempore ducimus corporis minus. </p>
+    <p>Eius minus ad mollitia beatae perferendis.</p>
+    <p>Amet voluptate provident dolore, odio delectus sed quam, tenetur veritatis ut illo </p>
+
+</div>
+<textarea name="" id="Area" cols="50" rows="5"></textarea>
+<button id="bt">Click</button>
+
+
+
+    <script>
+        document.getElementById('update').addEventListener('click',function () {
+           var inputtext=document.getElementById('input-text');
+           console.log(inputtext.value);
+         var inputfield=inputtext.value;
+        var newtext=document.getElementById('head');
+        newtext.innerHTML=inputfield;
+            
+        })
+
+//step-1
+        document.getElementById('bt').addEventListener('click',function () {
+            //step-2
+            var inputvalue=document.getElementById('Area');
+            var newinputvalue=inputvalue.value;
+            console.log(newinputvalue);
+            //step-3
+
+            var parentdiv=document.getElementById('comment-container');
+            var elementp=document.createElement('p');
+            elementp.innerText=newinputvalue;
+            parentdiv.appendChild(elementp)
+
+            
+        })
+        
+    </script>
+    
+</body>
+</html>
